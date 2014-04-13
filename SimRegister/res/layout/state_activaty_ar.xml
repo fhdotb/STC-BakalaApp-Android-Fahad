@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    android:weightSum="1"
+    >
+
+
+    <include
+        android:id="@+id/topBar"
+        layout="@layout/topbar_1" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_below="@+id/topBar"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        style="@style/HeaderLine" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:id="@+id/relativeLayout"
+        android:angle="80"
+        android:layout_below="@+id/line1"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/staateRegistration"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dip"
+            android:textColor="#521C70"
+            android:textSize="18sp"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editText_reg"
+            android:layout_height="wrap_content"
+            style="@style/RowTextLight"
+            android:background="#ffffff"
+            android:layout_marginTop="10dip"
+            android:hint="رقم التسجيل  ID"
+            android:gravity="center"
+            android:layout_below="@+id/textView_1"
+            android:layout_alignParentRight="true"
+            />
+
+        <View
+            android:id="@+id/leftVertica4"
+            android:layout_below="@+id/editText_reg"
+            android:layout_marginTop="10dp"
+            style="@style/EditTextLineLeftVertical"	/>
+
+        <View
+            android:id="@+id/rightVertica5"
+            android:layout_below="@+id/editText_reg"
+            android:layout_marginTop="10dp"
+            style="@style/EditTextLineRightVertical" />
+
+        <View
+            android:id="@+id/line5"
+            android:layout_below="@+id/editText_reg"
+            android:layout_marginTop="10dp"
+            style="@style/EditTextLine" />
+
+
+        <Button
+            android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dip"
+            android:id="@+id/submit"
+            android:text="إستعلام"
+            android:textSize="18sp"
+            android:onClick="onClickQuery"
+            android:layout_below="@+id/leftVertica4"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        style="@style/HeaderLine" />
+
+
+
+
+
+
+</RelativeLayout>

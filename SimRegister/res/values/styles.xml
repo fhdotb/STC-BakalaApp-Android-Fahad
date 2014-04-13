@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <style name="LightViewText">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">1sp</item>
+    </style>
+    
+     <style name="TopBarText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#521C70</item>
+    </style>
+
+    <style name="RowTextLight">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#888888</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="EditTextLineLeftVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">#C4C4C3</item>
+    </style>
+
+    <style name="EditTextLineRightVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:background">#C4C4C3</item>
+    </style>
+
+
+    <style name="box_view">
+
+           <item name="android:startColor">#3DA5CE</item>
+           <item name="android:endColor">#2D559B</item>
+           <item name="android:angle">45</item>
+
+           <item name="android:left">7dip</item>
+           <item name="android:top">7dip</item>
+           <item name="android:right">7dip</item>
+
+            <item name="android:bottom">7dip</item>
+            <item name="android:radius">15dip</item>
+    </style>
+
+    <style name="HeaderLine">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#888888</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+     
+     
+       <style name="EditTextLine">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">#C4C4C3</item>
+
+
+
+
+
+    </style>
+  
+     
+</resources>

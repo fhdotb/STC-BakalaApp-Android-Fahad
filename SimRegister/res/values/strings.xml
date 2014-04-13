@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SimRegisterActivity!</string>
+    <string name="app_name">SIM Registration</string>
+    <string name="RegisterSim">Register SIM</string>
+    <string name="UpdateSim">Update Sim</string>
+    <string name="MobileNumber">MSISDN :</string>
+    <string name="IMSI">IMSI #</string>
+    <string name="National_n">National Number :</string>
+    <string name="brithday">Birthday :</string>
+    <string name="sim_number">SIM Number</string>
+    <string name="IdNumber">الرقم الوطني :</string>
+    <string name="BornDate">تاريخ الميلاد :</string>
+    <string name="staateRegistration">رقم التسجيل :</string>
+    <string name="ZiyarahIdNumber">ID Number</string>
+    <string name="mobileNumbers">رقم الجوال :</string>
+    <string name="cardnumbers">رقم الشريحة :</string>
+    <string name="virfiyForm">التحقق منه</string>
+    <string name="imageOfid">صورة الهوية/الإقامة</string>
+    <string name="imageOfCard">صورة الشريحة</string>
+    <string name="state_reg">حالة التسحيل / State Registration</string>
+    <string name="signac">صورة العقد</string>
+    <string name="display_1">عرض الصورة</string>
+    <string name="stateRegis">حالة التسجيل</string>
+    <string name="regi">تسجيل</string>
+    <string name="delete">مسح</string>
+    <string name="FillFollwoingFields">Fill the follwoing fields</string>
+    <string name="Send">Send</string>
+    <string name="SendingReqStatus">Sending Request Status</string>
+    <string name="stateRegistrtion">State Registration</string>
+    <string name="Update">Finish</string>
+    <string name="SendingUpdateStatus">Sending Update Status</string>
+    <string name="SendingEmail">Sending email ...</string>
+    <string name="SendingSMS">Sending SMS ...</string>
+    <string name="SendingRequestFinished">Sending Request Finished</string>
+    <string name="IdPhoto">ID Photo</string>
+    <string name="alarabia">عربي</string>
+    <string name="TakePhoto">Take Photo</string>
+    <string name="networkError">No internet connection لايوجد اتصال انترنت </string>
+    <string name="loading">sending… جاري الارسال</string>
+    <string name="loadingCountries">Loading Data...</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sim_regis">STC SIM Registration</string>
+    <string name="sawa_ziyarah">SAWA Ziyarah سوا زيارة</string>
+    <string name="sawa_bakala">SAWA Baqala سوا بقالة</string>
+    <string name="select_option">Please select Options</string>
+    <string name="title_activity_ziyarah_main">Ziyarah</string>
+    <string name="msisdn">SIM number (IMSI)</string>
+    <string name="mobile_number_dest">Mobile Number</string>
+    <string name="nationality">Nationality</string>
+    <string name="firstName">First Name </string>
+    <string name="lastName">Last Name </string>
+    <string name="ok">OK</string>
+    <string name="redio1">مواطن سعودي</string>
+    <string name="redio2">غير سعودي</string>
+    <string name="arabic_details">التفاصيل الخاصة بك</string>
+
+    <string name="missing_field">Missing Field</string>
+    <string name="enter_source_msisdn">SIM card not found in the phone. Please use STC bakala SIM card to proceed.</string>
+    <string name="enter_dest_msisdn">Please enter Customer MSISDN</string>
+    <string name="enter_sim_number">Please enter SIM Number</string>
+    <string name="enter_id_number">Please enter ID Number</string>
+    <string name="enter_customer_first_name">Please enter Customer First Name</string>
+    <string name="enter_customer_last_name">Please enter Customer Last Name</string>
+    <string name="enter_country">Please select country</string>
+    <string name="select_cutomer_type">Please select Customer Type ID</string>
+    <string name="select_photo">"Please enter ID Photo. Please take the photo by pressing Take Photo button.</string>
+    <string name="network">Network Error</string>
+    <string name="error">Error</string>
+    <string name="internal_error">Error updating your information. Please try again.</string>
+    <string name="successful_message">SIM successfully registered.    تمت عملية التسجيل بنجاح</string>
+    <string name="success">Success.</string>
+    <string name="status">Request Status</string>
+    
+    <string-array name="countries_array">
+        <item>Select Country</item>
+        <item>Afghanistan</item>
+		<item>Albania</item>
+		<item>Algeria</item>
+		<item>American Samoa</item>
+		<item>Andorra</item>
+		<item>Angola</item>
+		<item>Anguilla</item>
+		<item>Antarctica</item>
+		<item>Antigua and Barbuda</item>
+		<item>Argentina</item>
+		<item>Armenia</item>
+		<item>Aruba</item>
+		<item>Australia</item>
+		<item>Austria</item>
+		<item>Azerbaijan</item>
+		<item>Bahrain</item>
+		<item>Bangladesh</item>
+		<item>Barbados</item>
+		<item>Belarus</item>
+		<item>Belgium</item>
+		<item>Belize</item>
+		<item>Benin</item>
+		<item>Bermuda</item>
+		<item>Bhutan</item>
+		<item>Bolivia</item>
+		<item>Bosnia and Herzegovina</item>
+		<item>Botswana</item>
+		<item>Bouvet Island</item>
+		<item>Brazil</item>
+		<item>British Indian Ocean Territory</item>
+		<item>British Virgin Islands</item>
+		<item>Brunei</item>
+		<item>Bulgaria</item>
+		<item>Burkina Faso</item>
+		<item>Burundi</item>
+		<item>Cambodia</item>
+		<item>Cameroon</item>
+		<item>Canada</item>
+		<item>Cape Verde</item>
+		<item>Cayman Islands</item>
+		<item>Central African Republic</item>
+		<item>Chad</item>
+		<item>Chile</item>
+		<item>China</item>
+		<item>Christmas Island</item>
+		<item>Cocos (Keeling) Islands</item>
+		<item>Colombia</item>
+		<item>Comoros</item>
+		<item>Congo</item>
+		<item>Cook Islands</item>
+		<item>Costa Rica</item>
+		<item>Cote d\'Ivoire</item>
+		<item>Croatia</item>
+		<item>Cuba</item>
+		<item>Cyprus</item>
+		<item>Czech Republic</item>
+		<item>Democratic Republic of the Congo</item>
+		<item>Denmark</item>
+		<item>Djibouti</item>
+		<item>Dominica</item>
+		<item>Dominican Republic</item>
+		<item>East Timor</item>
+		<item>Ecuador</item>
+		<item>Egypt</item>
+		<item>El Salvador</item>
+		<item>Equatorial Guinea</item>
+		<item>Eritrea</item>
+		<item>Estonia</item>
+		<item>Ethiopia</item>
+		<item>Faeroe Islands</item>
+		<item>Falkland Islands</item>
+		<item>Fiji</item>
+		<item>Finland</item>
+		<item>Former Yugoslav Republic of Macedonia</item>
+		<item>France</item>
+		<item>French Guiana</item>
+		<item>French Polynesia</item>
+		<item>French Southern Territories</item>
+		<item>Gabon</item>
+		<item>Georgia</item>
+		<item>Germany</item>
+		<item>Ghana</item>
+		<item>Gibraltar</item>
+		<item>Greece</item>
+		<item>Greenland</item>
+		<item>Grenada</item>
+		<item>Guadeloupe</item>
+		<item>Guam</item>
+		<item>Guatemala</item>
+		<item>Guinea</item>
+		<item>Guinea-Bissau</item>
+		<item>Guyana</item>
+		<item>Haiti</item>
+		<item>Heard Island and McDonald Islands</item>
+		<item>Honduras</item>
+		<item>Hong Kong</item>
+		<item>Hungary</item>
+		<item>Iceland</item>
+		<item>India</item>
+		<item>Indonesia</item>
+		<item>Iran</item>
+		<item>Iraq</item>
+		<item>Ireland</item>
+		<item>Israel</item>
+		<item>Italy</item>
+		<item>Jamaica</item>
+		<item>Japan</item>
+		<item>Jordan</item>
+		<item>Kazakhstan</item>
+		<item>Kenya</item>
+		<item>Kiribati</item>
+		<item>Kuwait</item>
+		<item>Kyrgyzstan</item>
+		<item>Laos</item>
+		<item>Latvia</item>
+		<item>Lebanon</item>
+		<item>Lesotho</item>
+		<item>Liberia</item>
+		<item>Libya</item>
+		<item>Liechtenstein</item>
+		<item>Lithuania</item>
+		<item>Luxembourg</item>
+		<item>Macau</item>
+		<item>Madagascar</item>
+		<item>Malawi</item>
+		<item>Malaysia</item>
+		<item>Maldives</item>
+		<item>Mali</item>
+		<item>Malta</item>
+		<item>Marshall Islands</item>
+		<item>Martinique</item>
+		<item>Mauritania</item>
+		<item>Mauritius</item>
+		<item>Mayotte</item>
+		<item>Mexico</item>
+		<item>Micronesia</item>
+		<item>Moldova</item>
+		<item>Monaco</item>
+		<item>Mongolia</item>
+		<item>Montserrat</item>
+		<item>Morocco</item>
+		<item>Mozambique</item>
+		<item>Myanmar</item>
+		<item>Namibia</item>
+		<item>Nauru</item>
+		<item>Nepal</item>
+		<item>Netherlands</item>
+		<item>Netherlands Antilles</item>
+		<item>New Caledonia</item>
+		<item>New Zealand</item>
+		<item>Nicaragua</item>
+		<item>Niger</item>
+		<item>Nigeria</item>
+		<item>Niue</item>
+		<item>Norfolk Island</item>
+		<item>North Korea</item>
+		<item>Northern Marianas</item>
+		<item>Norway</item>
+		<item>Oman</item>
+		<item>Pakistan</item>
+		<item>Palau</item>
+		<item>Panama</item>
+		<item>Papua New Guinea</item>
+		<item>Paraguay</item>
+		<item>Peru</item>
+		<item>Philippines</item>
+		<item>Pitcairn Islands</item>
+		<item>Poland</item>
+		<item>Portugal</item>
+		<item>Puerto Rico</item>
+		<item>Qatar</item>
+		<item>Reunion</item>
+		<item>Romania</item>
+		<item>Russia</item>
+		<item>Rwanda</item>
+		<item>Sqo Tome and Principe</item>
+		<item>Saint Helena</item>
+		<item>Saint Kitts and Nevis</item>
+		<item>Saint Lucia</item>
+		<item>Saint Pierre and Miquelon</item>
+		<item>Saint Vincent and the Grenadines</item>
+		<item>Samoa</item>
+		<item>San Marino</item>
+		<item>Saudi Arabia</item>
+		<item>Senegal</item>
+		<item>Seychelles</item>
+		<item>Sierra Leone</item>
+		<item>Singapore</item>
+		<item>Slovakia</item>
+		<item>Slovenia</item>
+		<item>Solomon Islands</item>
+		<item>Somalia</item>
+		<item>South Africa</item>
+		<item>South Georgia and the South Sandwich Islands</item>
+		<item>South Korea</item>
+		<item>Spain</item>
+		<item>Sri Lanka</item>
+		<item>Sudan</item>
+		<item>Suriname</item>
+		<item>Svalbard and Jan Mayen</item>
+		<item>Swaziland</item>
+		<item>Sweden</item>
+		<item>Switzerland</item>
+		<item>Syria</item>
+		<item>Taiwan</item>
+		<item>Tajikistan</item>
+		<item>Tanzania</item>
+		<item>Thailand</item>
+		<item>The Bahamas</item>
+		<item>The Gambia</item>
+		<item>Togo</item>
+		<item>Tokelau</item>
+		<item>Tonga</item>
+		<item>Trinidad and Tobago</item>
+		<item>Tunisia</item>
+		<item>Turkey</item>
+		<item>Turkmenistan</item>
+		<item>Turks and Caicos Islands</item>
+		<item>Tuvalu</item>
+		<item>Virgin Islands</item>
+		<item>Uganda</item>
+		<item>Ukraine</item>
+		<item>United Arab Emirates</item>
+		<item>United Kingdom</item>
+		<item>United States</item>
+		<item>United States Minor Outlying Islands</item>
+		<item>Uruguay</item>
+		<item>Uzbekistan</item>
+		<item>Vanuatu</item>
+		<item>Vatican City</item>
+		<item>Venezuela</item>
+		<item>Vietnam</item>
+		<item>Wallis and Futuna</item>
+		<item>Western Sahara</item>
+		<item>Yemen</item>
+		<item>Yugoslavia</item>
+		<item>Zambia</item>
+		<item>Zimbabwe</item>
+        
+    </string-array>
+    
+    
+     <string-array name="customer_types_array">
+        <item>Select Customer Type</item>
+		<item>P - Passport</item>
+		
+		</string-array>
+
+    <string-array name="TopBar_List_English">
+        <item>MainSTC</item>
+        <item>News</item>
+        <item>Offers</item>
+    </string-array>
+
+    <string-array name="TopBar_List_Arabic">
+        <item>MainSTC</item>
+        <item>الاخبار</item>
+        <item>العروض</item>
+    </string-array>
+    
+</resources>

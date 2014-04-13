@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout03"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bar"
+        android:orientation="vertical" >
+
+       
+        <ImageView
+            android:id="@+id/topBarImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon" />
+
+        <Button
+            android:id="@+id/topbarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dip"
+            android:background="@drawable/barbutton"
+            android:textColor="@android:color/white"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/maintitle"
+            style="@style/TopBarText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/topBarImage" />
+        
+	       <Button
+	        android:id="@+id/btnSendRequest"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="invisible"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="10dp"
+	        android:onClick="onSendRequest"
+	        android:text="@string/Send" />
+        
+        
+    </RelativeLayout>
+
+</RelativeLayout>

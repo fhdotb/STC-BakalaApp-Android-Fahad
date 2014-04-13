@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SimRegister.apk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/SimRegister.apk.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

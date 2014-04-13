@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/commons-codec-1.8-376bd31497a5ece89bd232c6ffd43e1a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/annotations-d7c6770ea807f35ee4564af214804402.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/httpmime-4.2-e18e0e4e13831e19f8c3c667e447dfbe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/android-support-v4-328722e7b6141c535fafad3863172ac6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/httpclient-4.2-0f29b22edf0be147fe3dec601d9cb2b4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SimRegister/bin/dexedLibs/httpcore-4.2-41f5e0684dca4b0547b418d7f339a2ab.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
